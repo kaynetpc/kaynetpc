@@ -1,0 +1,15 @@
+
+
+
+.testimonies-section {
+    margin:  1px auto;
+    background-color: wheat;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
+}
+
+.testimonies-section > .testimonies-panel{
+    
+}

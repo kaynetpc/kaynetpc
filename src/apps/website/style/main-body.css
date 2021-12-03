@@ -1,0 +1,34 @@
+
+.main-body {
+    background-color: var(--mainBg);
+    min-height: 500px;
+    width:100%;
+    border-radius: 10px;
+}
+
+.contents {
+    background-color: var(--mainPageBg);
+    border-radius: 5px;
+    min-height: 400px;
+    margin: auto;
+    width: 99%;
+    display: block;
+    position: relative;
+    /* background-image: url("../files/water_splash.png");
+    background-repeat: no-repeat; */
+    /* background-size: ; */
+}
+
+
+
+  .contents::after {
+    content: "";
+    background: url(../files/water_splash.png);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
