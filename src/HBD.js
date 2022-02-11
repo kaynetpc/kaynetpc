@@ -26,7 +26,9 @@ function HBD() {
              overflow: "auto"
         }}>
             <h2 style={{
-                color:  "#2471a3"
+                color:  "#2471a3",
+                fontSize: "15px",
+                fontWeight: "bold"
             }}>Payment Channels 😍 Kayode Akinwumi🤗</h2>
             {
                 cards.map((cd, i) => (
