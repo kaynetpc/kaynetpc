@@ -18,7 +18,7 @@ function App() {
           </Maintenance>
         </div>
       }  />
-      <Route path="/"  element={
+      <Route path="/hbd"  element={
         <HBD/>
       } />
     </Routes>
