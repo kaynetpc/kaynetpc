@@ -1,0 +1,51 @@
+
+.card {
+    position: relative;
+    
+    border: 4px solid #2470a354;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+    transition: ease-in-out .7s;
+    box-shadow: 2.5px 5px #88888831;
+}
+.card:hover {
+    border: 4px solid #2470a388;
+    transition: ease-in-out .7s;
+    box-shadow: 5px 10px #88888821;
+}
+.card-image {
+    background-color: rgba(224, 22, 22, 0.123);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.copy-btn {
+    padding: 2px 5px;
+    color: tomato;
+    background: white;
+    border: 2px solid tomato;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:  ease-in-out .7s;
+}
+
+.copy-btn:hover {
+    padding: 2px 5px;
+    color: white;
+    background: tomato;
+    border: 2px solid tomato;
+    transition:  ease-in-out .7s;
+}

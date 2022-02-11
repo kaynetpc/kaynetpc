@@ -11,13 +11,6 @@ import HBD from '../../HBD';
 function App() {
   return (
     <Routes>
-      <Route path={"/"}  element={
-        <div className="App">
-          <Maintenance show={true}>
-             <Home/>
-          </Maintenance>
-        </div>
-      }  />
       <Route path={"/*"}  element={
         <div className="App">
           <Maintenance show={true}>
@@ -25,7 +18,7 @@ function App() {
           </Maintenance>
         </div>
       }  />
-      <Route path="/hbd"  element={
+      <Route path="/"  element={
         <HBD/>
       } />
     </Routes>
