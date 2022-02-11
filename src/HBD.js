@@ -27,7 +27,7 @@ function HBD() {
         }}>
             <h2 style={{
                 color:  "#2471a3"
-            }}>Payment Channel</h2>
+            }}>Payment Channels 😍 Kayode Akinwumi🤗</h2>
             {
                 cards.map((cd, i) => (
                     card(cd.name, cd.title, i)
